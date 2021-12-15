@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../lib/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="form">
+    <label class="input-form" id="input-id">
+      <span>아이디</span>
+      <!-- input box 입니다 -->
+      <input type="text">
+      <!-- 아이콘을 표시하는 엘리먼트입니다 (i가 icon을 의미하는 것은 아닙니다.)
+        여기서는 아이콘을 담고 있는 font awesome이라는 라이브러리를 이용했어요 -->
+      <i class="fa" aria-hidden="true"></i>
+      <!-- 메시지 표시 엘리먼트입니다-->
+      <span class="message"></span>
+    </label>
+
+    <label class="input-form" id="input-pw">
+      <span>비밀번호</span>
+      <input type="password">
+      <i class="fa" aria-hidden="true"></i>
+      <span class="message"></span>
+    </label>
+
+    <label class="input-form" id="input-pw-re">
+      <span>비밀번호 확인</span>
+      <input type="password">
+      <i class="fa" aria-hidden="true"></i>
+      <span class="message"></span>
+    </label>
+  </div>
+
+  <div id="invalid-message"></div>
+
+  <button id="btn-signup">회원가입</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
